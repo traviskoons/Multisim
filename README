@@ -2,4 +2,5 @@ The simulations are for the 3x3 Space Vector Modulated Direct Matrix Converter (
 
 Design_switch.ms14 - The circuit consists of input signal to 1 power switch module (2xIRGB15B60KDPBF) which is filtered with RC-filter. The IGBT's are connected in common-emitter, anti-parallel configuration and driven at their gates through a resistor with square wave generator at the other end. Output is driven to static RC-load.
 
+2PSP_MC_Switch.ms14 - The circuit has additional switch module, with an input voltage at a different phase than the first switch module. Both gate drivers are operated at the same modulating frequency, with one having a phase delay of 1/2 period to the other, simulating binary on/off states. For this and other circuits with >2 power swithching modules, it is more convenient to run the 'Transient' simulation of Multisim to view their transient behavior, rather than using the interactive oscilloscopes. 
 
