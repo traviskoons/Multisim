@@ -4,3 +4,4 @@ Design_switch.ms14 - The circuit consists of input signal to 1 power switch modu
 
 2PSP_MC_Switch.ms14 - The circuit has additional switch module, with an input voltage at a different phase than the first switch module. Both gate drivers are operated at the same modulating frequency, with one having a phase delay of 1/2 period to the other, simulating binary on/off states. For this and other circuits with >2 power swithching modules, it is more convenient to run the 'Transient' simulation of Multisim to view their transient behavior, rather than using the interactive oscilloscopes. 
 
+Design_switch_3RC_3P3P.ms14 - 3 power switching modules are introduced. The transient waveforms show that they deliver three-phase voltage with respesct to each module's respective load.
