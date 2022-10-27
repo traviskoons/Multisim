@@ -1,4 +1,4 @@
-The simulations are for the 3x3 Space Vector Modulated Direct Matrix Converter (SVM-DMC). The simulations are opened using NI Multisim (Ver. 14.0 or better) software and aim to provide analysis on switching response of the 3x3 switching circuit of the DMC. Each simulation is described in further detail below:
+The simulations are for the Three-Phase to Three-Phase Space-Vector Modulated Direct Matrix Converter (3x3 SVM-DMC). The simulations are opened using NI Multisim (Ver. 14.0 or better) software and aim to provide analysis on switching response of the 3x3 switching circuit of the DMC. Each simulation is described in further detail below:
 
 Design_switch.ms14 - The circuit consists of input signal to 1 power switch module (2xIRGB15B60KDPBF) which is filtered with RC-filter. The IGBT's are connected in common-emitter, anti-parallel configuration and driven at their gates through a resistor with square wave generator at the other end. Output is driven to static RC-load.
 
